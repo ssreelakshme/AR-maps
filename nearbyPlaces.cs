@@ -46,7 +46,7 @@ public class PlaceDetails
 
 public class nearbyPlaces : MonoBehaviour
 {
-    string apiKey = "AIzaSyAnW88gq2TlT5lX-kAmwuoyzhMSSHKF_tA";
+    string apiKey = "APIKEY";
     string baseUrl = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?";
 
     public Dictionary<string, PlaceDetails> placesDetails = new Dictionary<string, PlaceDetails>();
